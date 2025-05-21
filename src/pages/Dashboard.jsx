@@ -5,7 +5,7 @@ import 'chart.js/auto';
 import { Card, Row, Col, Table, Button, Spinner } from 'react-bootstrap';
 
 const API_URL = "http://45.64.100.26:88/perpus-api/public/api";
-const namaPetugas = "Fajar"; // Ganti dengan nama dinamis jika ada auth
+const namaPetugas = "Petugas Perpustakaan"; // Ganti dengan nama petugas yang sesuai
 const today = new Date().toLocaleDateString('id-ID', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
 
 export default function Dashboard() {
